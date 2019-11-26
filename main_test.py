@@ -63,6 +63,8 @@ if __name__ == '__main__':
     wordvec_len = 4
 
     model_path = args.model_dir
+    if model_path[-1] == '/':
+        model_path = model_path[:-1]
     checkpoint = torch.load(model_path + '/' + 'checkpoint.pth.tar')
     if 'rnn' in args.mode:
         model_paras = modelStruc(os.path.basename(model_path),'Y')
