@@ -73,7 +73,7 @@ The script saliency_map.py is used to get saliency map for given sequences. The 
 This script ouput the saliency map file for given sequences. The output could be visualized using saliency_heatmap.R. The visualization result is a pdf file which contains saliency map for each sequence.
 
 ```
-python saliency_map.py -m model_type -in_fa input_fa -md model_dir -outfn out_fn
+python saliency_map.py -m model_type -infa input_fa -md model_dir -outfn out_fn
 ```
 
 ```R
