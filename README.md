@@ -56,7 +56,7 @@ The script main_test.py is used to predict if a given sequence contain m6A sites
 This script ouput the prediction scores for given sequences. 
 
 ```
-python main_test.py -m model_type -in_fa input_fa -md model_dir -outfn out_fn
+python main_test.py -m model_type -infa input_fa -md model_dir -outfn out_fn
 ```
 
 
